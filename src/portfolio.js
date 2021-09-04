@@ -17,20 +17,21 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  "https://drive.google.com/file/d/1BKld8QzrxUbiA9m-zKqKelzhwGjRlScj/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Axhar85",
+  linkedin: "https://www.linkedin.com/in/azhar-arshad/",
+  yahoomail: "azhararshad_ntu@yahoo.com",
+  gmail: "azhararshadntu@gmail.com",
+  hotmail: "azhararshad_ntu@hotmail.com",
+  facebook: "https://www.facebook.com/azhar.arshad.94/",
+  codewars: "https://www.codewars.com/users/Axhar85",
+  instagram: "https://www.instagram.com/axhar/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -95,8 +96,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "python",
@@ -116,23 +117,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "WoldCodeSchool",
+      logo: require("./assets/images/wildlogo.png"),
+      subHeader: "Full Stack WebDevelopment",
+      duration: "March 2021 - July 2021",
+      desc: "Learnt A fullstack web development program with JavaScript",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Daily standups and working with team in projecrts",
+                "Taking parts in Hackathon building the projects under pressure",
+                "Working on real time projects with clients"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of The Punjab",
+      logo: require("./assets/images/punjabuni.png"),
+      subHeader: "Bachelor of Commerce and Business Administration",
+      duration: " 2009",
+      desc: "Specalized in Business Adminstration",
+      descBullets: ["studied Accounting, Auditing, Business Law, and Ecnomics."]
     }
   ]
 };
@@ -206,13 +208,13 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/redefine.png"),
+      projectName: "Redefine",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
@@ -242,48 +244,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Diploma in Web Developing for E-Commerce",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Academia Colon Tres S.A. Madrid.",
+      image: require("./assets/images/csa-logog.svg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1BpkEjSn8sf_b3RW71s7tTdwu1nvSWrmj/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "The Fundamentals of Digital Marketing",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "The Open University",
+      image: require("./assets/images/open.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ExbYjK4wIZ7SY9rzJoJSOMXf1d67_YU7/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Elements of AI",
+      subtitle: "University of Helsinki",
+      image: require("./assets/images/helsinki.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", 
+        url: "https://drive.google.com/file/d/1_kZZHOz0h6ndMeb72luAhQ2yxll1H7kv/view?usp=sharing"},
+        
       ]
     }
   ],
@@ -350,8 +343,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    number: "+34-667 92 72 85",
+    email_address: "azhararshad_ntu@yahoo.com"
 };
 
 // Twitter Section
