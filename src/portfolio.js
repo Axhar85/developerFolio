@@ -117,7 +117,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "WoldCodeSchool",
+      schoolName: "WildCodeSchool",
       logo: require("./assets/images/wildlogo.png"),
       subHeader: "Full Stack WebDevelopment",
       duration: "March 2021 - July 2021",
