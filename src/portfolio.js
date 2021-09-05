@@ -154,7 +154,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,7 +163,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -210,7 +210,7 @@ const bigProjects = {
     {
       image: require("./assets/images/redefine.png"),
       projectName: "Redefine",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "We built this Website in two months by a team of 4 from scratch, using agile methologies, as final project in a web developer bootcamp for a client located in Denmark. It's built with React, styled-components. The code was coded using NodeJS and Expressand, and MongoDB as a database.",
       footerLink: [
         {
           name: "Visit Website",
@@ -220,13 +220,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/travelbudget.png"),
+      projectName: "Travel Budget App",
+      projectDesc: "It was our second project during the bootcamp. A full stack application that calculates for people who is going to travel, the currency exchange from the country of origin to the country of destination using ExchangeRate-API. The frontend was coded using React and styled-components and the backend with NodeJS and Express. It includes a Mysql database deployed in Heroku",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://sheltered-sierra-28595.herokuapp.com/"
         }
       ]
     }
@@ -304,7 +304,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -323,7 +323,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -336,7 +336,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -350,7 +350,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Axhar85", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
