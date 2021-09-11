@@ -134,7 +134,7 @@ const educationInfo = {
       subHeader: "Bachelor of Commerce and Business Administration",
       duration: " 2009",
       desc: "Specialized in Business Administration",
-      descBullets: ["studied Accounting, Auditing, Business Law, and Ecnomics."]
+      descBullets: ["studied Accounting, Auditing, Business Law, and Economics."]
     }
   ]
 };
