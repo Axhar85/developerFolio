@@ -92,6 +92,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.yahoomail ? (
+        <a
+          href={socialMediaLinks.yahoomail}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-yahoo"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.medium ? (
         <a
           href={socialMediaLinks.medium}
