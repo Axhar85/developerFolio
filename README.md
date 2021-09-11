@@ -2,10 +2,11 @@
 
 ![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
 
-## <a href=" " target="_blank">LIVE DEMO</a>
+## <a>LIVE DEMO</a>
+To view a live example, **[click here](https://admiring-leavitt-cf1849.netlify.app/)**.
 
 ## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
+This is a ReactJS based personal resume website template. 
 
 ## Make it Your Own!
 #### PREREQUISITES:

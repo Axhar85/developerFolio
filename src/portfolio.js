@@ -117,14 +117,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "WoldCodeSchool",
+      schoolName: "WildCodeSchool",
       logo: require("./assets/images/wildlogo.png"),
       subHeader: "Full Stack WebDevelopment",
       duration: "March 2021 - July 2021",
       desc: "Learnt A fullstack web development program with JavaScript",
       descBullets: [
                 "Daily standups and working with team in projecrts",
-                "Taking parts in Hackathon building the projects under pressure",
+                "Taking part in Hackathons and create projects in limited time",
                 "Working on real time projects with clients"
       ]
     },
@@ -133,8 +133,8 @@ const educationInfo = {
       logo: require("./assets/images/punjabuni.png"),
       subHeader: "Bachelor of Commerce and Business Administration",
       duration: " 2009",
-      desc: "Specalized in Business Adminstration",
-      descBullets: ["studied Accounting, Auditing, Business Law, and Ecnomics."]
+      desc: "Specialized in Business Administration",
+      descBullets: ["studied Accounting, Auditing, Business Law, and Economics."]
     }
   ]
 };
