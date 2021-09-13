@@ -48,7 +48,11 @@ const skillsSection = {
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    ),
+    emoji(
+      "⚡ Creating application backend in Node, Express & Flask"
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
