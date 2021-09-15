@@ -104,6 +104,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github"
     },
     {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
