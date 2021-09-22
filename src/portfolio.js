@@ -302,6 +302,12 @@ const blogSection = {
   blogs: [
   
     {
+      url: "https://medium.com/@azhararshad_ntu/what-is-an-api-and-how-does-it-work-c21bb5c6cec0",
+      title: "What is an API and how does it work",
+      description:
+        "How do apps let you create an account and log in with your social networks or Google credentials?"
+    },
+    {
       url: "https://medium.com/@azhararshad_ntu/difference-between-relational-and-non-relational-databases-def9a9217b2a",
       title: "Difference between Relational and Non-relational Databases",
       description:
