@@ -253,9 +253,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Diploma in Web Developing for E-Commerce",
+      title: "MongoDB for JavaScript Developers",
       subtitle:
-        "Academia Colon Tres S.A. Madrid.",
+        "MongoDB.",
       image: require("./assets/images/mongodb.svg"),
       footerLink: [
         {
