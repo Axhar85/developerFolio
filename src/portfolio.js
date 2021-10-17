@@ -253,14 +253,14 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "MongoDB for JavaScript Developers",
+      title: "MongoDB for Javascript Developers",
       subtitle:
-        "MongoDB.",
+        "MongoDB",
       image: require("./assets/images/mongodb.svg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1BpkEjSn8sf_b3RW71s7tTdwu1nvSWrmj/view?usp=sharing"
+          url: "hhttps://drive.google.com/file/d/1MbO3tO757chIRLsXc_kNPgblf3PUaxIL/view?usp=sharing"
         },
         
       ]
