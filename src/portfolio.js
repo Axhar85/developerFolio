@@ -256,6 +256,19 @@ const achievementSection = {
       title: "Diploma in Web Developing for E-Commerce",
       subtitle:
         "Academia Colon Tres S.A. Madrid.",
+      image: require("./assets/images/mongodb.svg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1BpkEjSn8sf_b3RW71s7tTdwu1nvSWrmj/view?usp=sharing"
+        },
+        
+      ]
+    },
+    {
+      title: "Diploma in Web Developing for E-Commerce",
+      subtitle:
+        "Academia Colon Tres S.A. Madrid.",
       image: require("./assets/images/csa-logog.svg"),
       footerLink: [
         {
