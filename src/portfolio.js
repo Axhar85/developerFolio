@@ -253,7 +253,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "MongoDB for Javascript Developers",
+      title: "MongoDB for JavaScript Developers",
       subtitle:
         "MongoDB",
       image: require("./assets/images/mongodb.svg"),
