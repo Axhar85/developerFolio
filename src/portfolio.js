@@ -82,7 +82,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vue"
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "nodejs",
