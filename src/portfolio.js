@@ -72,6 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
+     {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
