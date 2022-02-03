@@ -113,6 +113,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-git"
     },
     {
+      skillName: "gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
