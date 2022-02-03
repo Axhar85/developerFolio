@@ -81,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "vuejs",
       fontAwesomeClassname: "fab fa-vuejs"
     },
