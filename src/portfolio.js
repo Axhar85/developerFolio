@@ -131,6 +131,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname:"fab fa-jenkins"
     }
   ],
   display: true // Set false to hide this section, defaults to true
