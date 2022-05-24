@@ -108,6 +108,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
+    { skillName: "mongodb",
+     fontAwesomeClassname; "fa-brands fa-envira"
+    },
+    
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
