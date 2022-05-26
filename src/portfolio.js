@@ -139,6 +139,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "jenkins",
       fontAwesomeClassname:"fab fa-jenkins"
+    },
+    {
+      skillName: "gulp",
+      fontAwesomeClassname:"fab fa-gulp"
     }
   ],
   display: true // Set false to hide this section, defaults to true
