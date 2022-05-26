@@ -142,7 +142,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "gulp",
-      fontAwesomeClassname:"fas fa-gulp"
+      fontAwesomeClassname:"fab fa-gulp"
     }
   ],
   display: true // Set false to hide this section, defaults to true
