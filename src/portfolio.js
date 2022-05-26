@@ -109,7 +109,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     { skillName: "mongodb",
-     fontAwesomeClassname; "fa-brands fa-envira"
+     fontAwesomeClassname; "fab fa-envira"
     },
     
     {
@@ -142,7 +142,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "gulp",
-      fontAwesomeClassname:"fab fa-gulp"
+      fontAwesomeClassname:"fas fa-gulp"
     }
   ],
   display: true // Set false to hide this section, defaults to true
