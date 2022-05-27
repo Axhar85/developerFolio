@@ -109,7 +109,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     { skillName: "mongodb",
-     fontAwesomeClassname: "fab fa-envira"
+     fontAwesomeClassname:  "fab fa-envira"
     },
     
     {
