@@ -200,33 +200,33 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full-stack Developer (FTC)",
+      company: "IE Business School",
+      companylogo: require("./assets/images/ie.jpg"),
+      date: "January 2022 – Present",
+      desc: "Working as Full-stack developer in IE Publishing department creating materials, apps and simulation ",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-stack Developer",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelance.jpg"),
+      date: "July 2021 – Present",
+      desc: "After finshing my bootcamp I have been working on different projects improving and learning new technologies"
     },
-    {
+    /*{
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    }*/
   ]
 };
 
