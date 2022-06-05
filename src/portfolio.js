@@ -220,6 +220,7 @@ const workExperiences = {
       date: "July 2021 – Present",
       desc: "After finshing my bootcamp I have been working on different projects improving and learning new technologies"
     },
+    
     /*{
       role: "Software Engineer Intern",
       company: "Airbnb",
