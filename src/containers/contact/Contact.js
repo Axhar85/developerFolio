@@ -50,10 +50,7 @@ export default function Contact() {
             {illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
-              <img
-                alt="Man working"
-                src={contactMailDark}
-              ></img>
+              <img alt="Man working" src={contactMailDark}></img>
             )}
           </div>
         </div>
@@ -61,4 +58,3 @@ export default function Contact() {
     </Fade>
   );
 }
-

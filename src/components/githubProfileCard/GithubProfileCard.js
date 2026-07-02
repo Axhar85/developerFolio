@@ -60,4 +60,3 @@ export default function GithubProfileCard({prof}) {
     </Fade>
   );
 }
-

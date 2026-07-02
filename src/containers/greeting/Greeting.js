@@ -53,10 +53,7 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={manOnTable}
-              ></img>
+              <img alt="man sitting on table" src={manOnTable}></img>
             )}
           </div>
         </div>
@@ -64,4 +61,3 @@ export default function Greeting() {
     </Fade>
   );
 }
-

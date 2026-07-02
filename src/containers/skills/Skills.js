@@ -21,10 +21,7 @@ export default function Skills() {
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
-              <img
-                alt="Man Working"
-                src={developerActivityImage}
-              ></img>
+              <img alt="Man Working" src={developerActivityImage}></img>
             )}
           </div>
         </Fade>
@@ -67,4 +64,3 @@ export default function Skills() {
     </div>
   );
 }
-

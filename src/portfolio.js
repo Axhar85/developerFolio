@@ -44,8 +44,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I build",
-  subTitle:
-    "FRONTEND ENGINEERING WITH PRACTICAL FULL STACK CAPABILITY",
+  subTitle: "FRONTEND ENGINEERING WITH PRACTICAL FULL STACK CAPABILITY",
   skills: [
     emoji(
       "Build and maintain mobile-first React, TypeScript, Next.js and Vue.js interfaces for production web platforms."
@@ -128,8 +127,7 @@ const workExperiences = {
       companylogo: mondiaLogo,
       logoClassName: "experience-logo-wide",
       date: "July 2022 - Present",
-      desc:
-        "Developing mobile-first landing pages, subscription flows and responsive web applications for telecom, entertainment and digital service platforms.",
+      desc: "Developing mobile-first landing pages, subscription flows and responsive web applications for telecom, entertainment and digital service platforms.",
       descBullets: [
         "Build reusable frontend patterns with React, TypeScript, JavaScript, Vue.js, PHP and Blade to improve campaign delivery speed and consistency.",
         "Integrate REST APIs, analytics events, business logic and third-party services into production customer journeys.",
@@ -143,8 +141,7 @@ const workExperiences = {
       company: "IE Business School",
       companylogo: ieLogo,
       date: "January 2022 - July 2022",
-      desc:
-        "Maintained and enhanced React, Vue.js and JavaScript applications for digital learning content and academic publishing workflows.",
+      desc: "Maintained and enhanced React, Vue.js and JavaScript applications for digital learning content and academic publishing workflows.",
       descBullets: [
         "Implemented UI fixes, production updates and maintainability improvements in existing applications.",
         "Supported stable delivery with GitLab, Docker and AWS while collaborating with production and publishing teams.",
@@ -156,8 +153,7 @@ const workExperiences = {
       company: "Freelance",
       companylogo: freelanceImage,
       date: "July 2021 - Present",
-      desc:
-        "Part-time and personal software work focused on responsive interfaces, full stack practice and modern frontend tooling.",
+      desc: "Part-time and personal software work focused on responsive interfaces, full stack practice and modern frontend tooling.",
       descBullets: [
         "Build responsive web interfaces and personal software projects with React, JavaScript, TypeScript and React Native.",
         "Continue developing full stack capability through Node.js, PHP, REST APIs, databases, npm workflows and deployment practice."
@@ -277,7 +273,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "Scrum Methodology for Software Project Management and Software Development",
+      title:
+        "Scrum Methodology for Software Project Management and Software Development",
       subtitle: "Grupo Aspasia - Issued Mar 2022",
       image: scrumTrainingLogo,
       footerLink: [
