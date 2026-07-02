@@ -1,11 +1,14 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {Fade} from "../../components/animation/Reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
+    if (!url) {
+      return;
+    }
     var win = window.open(url, "_blank");
     win.focus();
   }

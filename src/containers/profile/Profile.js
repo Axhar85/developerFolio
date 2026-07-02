@@ -4,8 +4,8 @@ import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
 
 const renderLoader = () => <Loading />;
-const GithubProfileCard = lazy(() =>
-  import("../../components/githubProfileCard/GithubProfileCard")
+const GithubProfileCard = lazy(
+  () => import("../../components/githubProfileCard/GithubProfileCard")
 );
 export default function Profile() {
   const [prof, setrepo] = useState([]);
@@ -18,20 +18,17 @@ export default function Profile() {
       const getProfileData = () => {
         fetch("/profile.json")
           .then(result => {
-            if (result.ok) {
+            const contentType = result.headers.get("content-type") || "";
+            if (result.ok && contentType.includes("application/json")) {
               return result.json();
             }
-            console.error(result);
+            throw new Error("GitHub profile data is not configured");
           })
           .then(response => {
             setProfileFunction(response.data.user);
           })
-          .catch(function (error) {
+          .catch(function () {
             setProfileFunction("Error");
-            console.log(
-              "Because of this error, contact section has reverted to default"
-            );
-            console.error(error);
             openSource.showGithubProfile = "false";
           });
       };

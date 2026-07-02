@@ -70,7 +70,6 @@
   margin: 0;
   color: $lightBackground1;
   font-size: 25px;
-  text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -91,6 +90,16 @@
   border-radius: 50%;
 }
 
+.experience-logo-wide {
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0.6rem 0.8rem;
+  width: 10.5rem;
+  height: 3.8rem;
+  top: 8.1rem;
+}
+
 .experience-text-role {
   text-align: center;
   color: $textColor;
@@ -100,9 +109,11 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
 .experience-text-date {
   text-align: center;
   color: $textColor;
@@ -121,22 +132,29 @@
   margin-top: 2rem;
 }
 
-/* Media Query */
-
 @media (max-width: 1380px) {
   .experience-text-role {
     padding-top: 0.5rem;
     font-size: 22px;
   }
+
   .experience-text-company {
     font-size: 22px;
   }
+
   .experience-text-date {
     font-size: 18px;
   }
+
   .experience-roundedimg {
     width: 6.5rem;
     height: 6.5rem;
+  }
+
+  .experience-logo-wide {
+    width: 9.5rem;
+    height: 3.4rem;
+    top: 8rem;
   }
 }
 
@@ -144,13 +162,23 @@
   .experience-text-role {
     font-size: 22px;
   }
+
   .experience-text-company {
     font-size: 22px;
   }
+
   .experience-text-date {
     font-size: 18px;
   }
+
   .experience-text-desc {
     font-size: 16px;
+  }
+
+  .experience-logo-wide {
+    width: 8.5rem;
+    height: 3rem;
+    top: 8.25rem;
+    padding: 0.45rem 0.65rem;
   }
 }

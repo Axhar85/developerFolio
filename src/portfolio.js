@@ -2,316 +2,247 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
-
+import wildLogo from "./assets/images/wildlogo.png";
+import punjabUniLogo from "./assets/images/punjabuni.png";
+import ieLogo from "./assets/images/ie.jpg";
+import freelanceImage from "./assets/images/freelance.jpg";
+import mondiaLogo from "./assets/images/mondiaLogo.png";
+import mongodbLogo from "./assets/images/mongodb.svg";
+import csaLogo from "./assets/images/csa-logog.svg";
+import openLogo from "./assets/images/open.png";
+import helsinkiLogo from "./assets/images/helsinki.png";
+import pythonTrainingLogo from "./assets/images/pythonTrainingLogo.svg";
+import scrumTrainingLogo from "./assets/images/scrumTrainingLogo.svg";
+import phpTrainingLogo from "./assets/images/phpTrainingLogo.svg";
+import javaTrainingLogo from "./assets/images/javaTrainingLogo.svg";
+import awsTrainingLogo from "./assets/images/awsTrainingLogo.svg";
+import webServerTrainingLogo from "./assets/images/webServerTrainingLogo.svg";
+import aiMlTrainingLogo from "./assets/images/aiMlTrainingLogo.svg";
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
-  username: "Axhar Arshad",
-  title: "Hi all, I'm Azhar",
+  username: "Azhar Arshad",
+  title: "Hi, I'm Azhar Arshad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Vuejs and some other cool libraries and frameworks."
+    "Mid-level Front-End / Full Stack Developer in Madrid. I build mobile-first, responsive web applications with React, TypeScript, JavaScript, Next.js, Vue.js, Node.js and PHP/Blade, with strong production debugging and legacy-modernisation experience."
   ),
-  resumeLink:
-  "https://drive.google.com/file/d/1TWcwjW61o6tfpXdS9KtQdHR-LM6GJqZU/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "/Azhar_Arshad_CV_2026.pdf",
+  displayGreeting: true
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/Axhar85",
   linkedin: "https://www.linkedin.com/in/azhar-arshad/",
-  yahoomail: "azhararshad_ntu@yahoo.com",
-  gmail: "azhararshadntu@gmail.com",
-  hotmail: "azhararshad_ntu@hotmail.com",
-  facebook: "https://www.facebook.com/azhar.arshad.94/",
-  codewars: "https://www.codewars.com/users/Axhar85",
-  instagram: "https://www.instagram.com/axhar/",
+  gmail: "azhararshad_ntu@yahoo.com",
+  gitlab: "",
   medium: "https://medium.com/@azhararshad_ntu",
-  // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
-
-// Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I build",
+  subTitle: "FRONTEND ENGINEERING WITH PRACTICAL FULL STACK CAPABILITY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integrations of third party services such as Firebase/ AWS / Digital Ocean"
+      "Build and maintain mobile-first React, TypeScript, Next.js and Vue.js interfaces for production web platforms."
     ),
     emoji(
-      "⚡ Creating application backend in Node, Express & Flask"
+      "Create reusable landing page and subscription-flow patterns for telecom and digital entertainment products."
+    ),
+    emoji(
+      "Integrate REST APIs, analytics events, business logic and third-party services into customer journeys."
+    ),
+    emoji(
+      "Debug production issues, refactor legacy code and improve performance, maintainability and release stability."
+    ),
+    emoji(
+      "Use npm, GitLab, Docker, AWS and AI-assisted workflows to support delivery, documentation and troubleshooting."
     )
-    
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-     {
-      skillName: "bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "angularjs",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    { skillName: "mongodb",
-     fontAwesomeClassname:  "fab fa-envira"
-    },
-    
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "github",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git"
-    },
-    {
-      skillName: "gitlab",
-      fontAwesomeClassname: "fab fa-gitlab"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "jenkins",
-      fontAwesomeClassname:"fab fa-jenkins"
-    },
-    {
-      skillName: "gulp",
-      fontAwesomeClassname:"fab fa-gulp"
-    }
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "Next.js", fontAwesomeClassname: "fas fa-layer-group"},
+    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
+    {skillName: "React Native", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "PHP / Blade", fontAwesomeClassname: "fab fa-php"},
+    {skillName: "REST APIs", fontAwesomeClassname: "fas fa-plug"},
+    {skillName: "npm", fontAwesomeClassname: "fab fa-npm"},
+    {skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-database"}
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "WildCodeSchool",
-      logo: require("./assets/images/wildlogo.png"),
-      subHeader: "Full Stack WebDevelopment",
+      schoolName: "Wild Code School",
+      logo: wildLogo,
+      subHeader: "Full Stack Developer Bootcamp - 700 hours",
       duration: "March 2021 - July 2021",
-      desc: "Learnt A fullstack web development program with JavaScript",
+      desc: "Intensive full stack web development program focused on JavaScript, React, Node.js, APIs and team delivery.",
       descBullets: [
-                "Daily standups and working with team in projecrts",
-                "Taking part in Hackathons and create projects in limited time",
-                "Working on real time projects with clients"
+        "Built projects in agile teams with daily standups, demos and client-oriented feedback.",
+        "Practised frontend, backend, database and deployment workflows across real project constraints.",
+        "Completed hackathons and deadline-driven builds using modern JavaScript tools."
       ]
     },
     {
-      schoolName: "University of The Punjab",
-      logo: require("./assets/images/punjabuni.png"),
+      schoolName: "University of the Punjab",
+      logo: punjabUniLogo,
       subHeader: "Bachelor of Commerce and Business Administration",
-      duration: " 2009",
-      desc: "Specialized in Business Administration",
-      descBullets: ["studied Accounting, Auditing, Business Law, and Economics."]
+      duration: "2009",
+      desc: "Business administration foundation with accounting, auditing, business law and economics.",
+      descBullets: []
     }
   ]
 };
-
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    }
+    {Stack: "Frontend Engineering", progressPercentage: "90%"},
+    {Stack: "Production Debugging", progressPercentage: "85%"},
+    {Stack: "Full Stack Capability", progressPercentage: "75%"}
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Full-stack Developer (FTC)",
-      company: "IE Business School",
-      companylogo: require("./assets/images/ie.jpg"),
-      date: "January 2022 – Present",
-      desc: "Working as Full-stack developer in IE Publishing department creating materials, apps and simulation ",
+      role: "Front-End Developer",
+      company: "Mondia Group",
+      companylogo: mondiaLogo,
+      logoClassName: "experience-logo-wide",
+      date: "July 2022 - Present",
+      desc: "Developing mobile-first landing pages, subscription flows and responsive web applications for telecom, entertainment and digital service platforms.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Build reusable frontend patterns with React, TypeScript, JavaScript, Vue.js, PHP and Blade to improve campaign delivery speed and consistency.",
+        "Integrate REST APIs, analytics events, business logic and third-party services into production customer journeys.",
+        "Debug production issues, reduce recurring defects and support live telecom services used by large user bases.",
+        "Improve frontend performance, page loading speed, responsiveness and cross-browser compatibility for mobile-first traffic.",
+        "Use npm, GitLab, Docker, AWS and AI-assisted workflows for package management, deployment troubleshooting, documentation and delivery support."
       ]
     },
     {
-      role: "Full-stack Developer",
-      company: "Freelance",
-      companylogo: require("./assets/images/freelance.jpg"),
-      date: "July 2021 – Present",
-      desc: "After finshing my bootcamp I have been working on different projects improving and learning new technologies"
+      role: "Full Stack Developer (FTC)",
+      company: "IE Business School",
+      companylogo: ieLogo,
+      date: "January 2022 - July 2022",
+      desc: "Maintained and enhanced React, Vue.js and JavaScript applications for digital learning content and academic publishing workflows.",
+      descBullets: [
+        "Implemented UI fixes, production updates and maintainability improvements in existing applications.",
+        "Supported stable delivery with GitLab, Docker and AWS while collaborating with production and publishing teams.",
+        "Worked on continuity-focused improvements for systems used by students, professors and external clients."
+      ]
     },
-    
-    /*{
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }*/
+    {
+      role: "Freelance Web / Full Stack Developer",
+      company: "Freelance",
+      companylogo: freelanceImage,
+      date: "July 2021 - Present",
+      desc: "Part-time and personal software work focused on responsive interfaces, full stack practice and modern frontend tooling.",
+      descBullets: [
+        "Build responsive web interfaces and personal software projects with React, JavaScript, TypeScript and React Native.",
+        "Continue developing full stack capability through Node.js, PHP, REST APIs, databases, npm workflows and deployment practice."
+      ]
+    }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false",
+  display: false
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Selected Projects",
+  subtitle:
+    "PROJECTS THAT MATCH MY CURRENT FRONTEND, PRODUCT AND PRODUCTION EXPERIENCE",
   projects: [
     {
-      image: require("./assets/images/redefine.png"),
-      projectName: "Redefine",
-      projectDesc: "We built this Website in two months by a team of 4 from scratch, using agile methologies, as final project in a web developer bootcamp for a client located in Denmark. It's built with React, styled-components. The code was coded using NodeJS and Expressand, and MongoDB as a database.",
+      image: null,
+      projectName: "Landing Page Generator",
+      projectDesc:
+        "Built and maintained reusable mobile-first landing page patterns for subscription campaigns, improving delivery speed, consistency and maintainability across telecom projects. Stack: React, TypeScript, JavaScript, PHP, Blade, GitLab and npm.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        }
-        //  you can add extra buttons here.
+        {name: "React"},
+        {name: "TypeScript"},
+        {name: "PHP / Blade"},
+        {name: "npm"}
       ]
     },
     {
-      image: require("./assets/images/travelbudget.png"),
-      projectName: "Travel Budget App",
-      projectDesc: "It was our second project during the bootcamp. A full stack application that calculates for people who is going to travel, the currency exchange from the country of origin to the country of destination using ExchangeRate-API. The frontend was coded using React and styled-components and the backend with NodeJS and Express. It includes a Mysql database deployed in Heroku",
+      image: null,
+      projectName: "Subscription Platform Frontend",
+      projectDesc:
+        "Supported production subscription flows with API integration, analytics events, status handling, fallback journeys, debugging and cross-browser optimisation. Focused on stable releases and reliable mobile user journeys.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://sheltered-sierra-28595.herokuapp.com/"
-        }
+        {name: "JavaScript"},
+        {name: "REST APIs"},
+        {name: "Docker"},
+        {name: "AWS"}
+      ]
+    },
+    {
+      image: null,
+      projectName: "Kids Learning App",
+      projectDesc:
+        "Personal React Native project with bilingual UI, voice interaction, sound effects, animations, gamification and child-friendly responsive design. Built to practise mobile UX, audio interactions and TypeScript architecture.",
+      footerLink: [
+        {name: "React Native"},
+        {name: "Expo"},
+        {name: "TypeScript"},
+        {name: "Audio"}
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Certifications And Training",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+    "Supporting training in frontend development, full stack engineering, project delivery, cloud, databases and AI.",
   achievementsCards: [
     {
       title: "MongoDB for JavaScript Developers",
-      subtitle:
-        "MongoDB",
-      image: require("./assets/images/mongodb.svg"),
+      subtitle: "MongoDB",
+      image: mongodbLogo,
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1MbO3tO757chIRLsXc_kNPgblf3PUaxIL/view?usp=sharing"
-        },
-        
+        }
       ]
     },
     {
-      title: "Diploma in Web Developing for E-Commerce",
-      subtitle:
-        "Academia Colon Tres S.A. Madrid.",
-      image: require("./assets/images/csa-logog.svg"),
+      title: "Web Development for E-Commerce",
+      subtitle: "Academia Colon Tres S.A. Madrid",
+      image: csaLogo,
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1BpkEjSn8sf_b3RW71s7tTdwu1nvSWrmj/view?usp=sharing"
-        },
-        
+        }
       ]
     },
     {
       title: "The Fundamentals of Digital Marketing",
-      subtitle:
-        "The Open University",
-      image: require("./assets/images/open.png"),
+      subtitle: "The Open University",
+      image: openLogo,
       footerLink: [
         {
           name: "Certification",
@@ -319,91 +250,144 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Elements of AI",
       subtitle: "University of Helsinki",
-      image: require("./assets/images/helsinki.png"),
+      image: helsinkiLogo,
       footerLink: [
-        {name: "Certification", 
-        url: "https://drive.google.com/file/d/1_kZZHOz0h6ndMeb72luAhQ2yxll1H7kv/view?usp=sharing"},
-        
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1_kZZHOz0h6ndMeb72luAhQ2yxll1H7kv/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Applied Machine Learning with Python",
+      subtitle: "Grupo Euroformac - Issued Apr 2022",
+      image: pythonTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1jWuw6vrjtl9Frbyi5N5Dc0rJ5sDCYHEZ/view"
+        }
+      ]
+    },
+    {
+      title:
+        "Scrum Methodology for Software Project Management and Software Development",
+      subtitle: "Grupo Aspasia - Issued Mar 2022",
+      image: scrumTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1yb7N-isrbP_AT_LMfp6NY7X0gYoq8pHd/view"
+        }
+      ]
+    },
+    {
+      title: "Web Development with PHP",
+      subtitle: "Academia Lagasca Serrano SA - Issued May 2023",
+      image: phpTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1Wm_SWfvoKxf4_G6K9RmJ1otsISOFx_fZ/view"
+        }
+      ]
+    },
+    {
+      title: "Java Project Management with Maven",
+      subtitle: "Impulso_06 - Issued Oct 2022",
+      image: javaTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1UKyXvggw4WMymylaTkP9marKjxej5a3C/view"
+        }
+      ]
+    },
+    {
+      title: "AWS Training",
+      subtitle: "Additional cloud and deployment training",
+      image: awsTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1IN7LHBrdWId1nEzUPWT6445t16k42nq7/view"
+        }
+      ]
+    },
+    {
+      title: "Web Servers Training",
+      subtitle: "Additional web infrastructure training",
+      image: webServerTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1rjFRbUWy2d1d_TbhEjAJ_agTWvbmcaHx/view"
+        }
+      ]
+    },
+    {
+      title: "AI / Machine Learning Training",
+      subtitle: "Additional AI and machine learning training",
+      image: aiMlTrainingLogo,
+      footerLink: [
+        {
+          name: "Credential",
+          url: "https://drive.google.com/file/d/1_aEP_uap8y_2YkRbUGgUAI3lsv4Q4BS9/view"
+        }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
+    "Technical writing from earlier learning and knowledge-sharing work.",
   blogs: [
-  
     {
       url: "https://medium.com/@azhararshad_ntu/what-is-an-api-and-how-does-it-work-c21bb5c6cec0",
       title: "What is an API and how does it work",
       description:
-        "How do apps let you create an account and log in with your social networks or Google credentials?"
+        "A beginner-friendly explanation of how applications communicate through APIs."
     },
     {
       url: "https://medium.com/@azhararshad_ntu/difference-between-relational-and-non-relational-databases-def9a9217b2a",
       title: "Difference between Relational and Non-relational Databases",
       description:
-        "Database innovation has changed and advanced over the years. Relational, Non Relational, Cloud databases, hierarchical…it can begin to urge confusing. Storing information doesn’t have to be be a problem."
+        "A practical overview of relational and non-relational database concepts."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
-
-// Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  title: "Talks",
+  subtitle: "",
+  talks: [],
+  display: false
 };
 
-// Podcast Section
-
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  title: "Podcast",
+  subtitle: "",
+  podcast: [],
+  display: false
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+34-667 92 72 85",
-    email_address: "azhararshad_ntu@yahoo.com"
+    "Open to front-end, React, TypeScript and full stack opportunities in Madrid, Spain or remote-friendly teams.",
+  number: "+34 667 927 285",
+  email_address: "azhararshad_ntu@yahoo.com"
 };
 
-// Twitter Section
-
 const twitterDetails = {
-  userName: "Axhar85", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "Axhar85",
+  display: false
 };
 
 export {
