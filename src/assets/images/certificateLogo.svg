@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Certificate">
+  <rect width="160" height="160" rx="28" fill="#e8f5f7"/>
+  <path d="M45 38h70a10 10 0 0 1 10 10v82H35V48a10 10 0 0 1 10-10z" fill="#ffffff" stroke="#29a3ad" stroke-width="6"/>
+  <path d="M55 64h50M55 82h50M55 100h32" stroke="#12394a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="105" cy="108" r="18" fill="#f0182d"/>
+  <path d="M96 126l9-8 9 8v-17H96v17z" fill="#f0182d"/>
+</svg>

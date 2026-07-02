@@ -18,7 +18,8 @@ export default function Projects() {
     const getRepoData = () => {
       fetch("/profile.json")
         .then(result => {
-          if (result.ok) {
+          const contentType = result.headers.get("content-type") || "";
+          if (result.ok && contentType.includes("application/json")) {
             return result.json();
           }
           throw result;

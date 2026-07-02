@@ -2,10 +2,11 @@ import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {Fade} from "../../components/animation/Reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import developerActivityImage from "../../assets/images/developerActivity.svg";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -22,7 +23,7 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={developerActivityImage}
               ></img>
             )}
           </div>
@@ -66,3 +67,4 @@ export default function Skills() {
     </div>
   );
 }
+

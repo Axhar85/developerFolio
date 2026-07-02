@@ -1,6 +1,6 @@
 import React from "react";
 import "./GithubRepoCard.scss";
-import {Fade} from "react-reveal";
+import {Fade} from "../animation/Reveal";
 
 export default function GithubRepoCard({repo, isDark}) {
   function openRepoinNewTab(url) {
@@ -88,3 +88,4 @@ export default function GithubRepoCard({repo, isDark}) {
     </Fade>
   );
 }
+
