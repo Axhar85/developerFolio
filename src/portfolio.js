@@ -221,6 +221,7 @@ const achievementSection = {
       title: "MongoDB for JavaScript Developers",
       subtitle: "MongoDB",
       image: mongodbLogo,
+      imageClassName: "card-image-large",
       footerLink: [
         {
           name: "Certification",
@@ -232,6 +233,7 @@ const achievementSection = {
       title: "Web Development for E-Commerce",
       subtitle: "Academia Colon Tres S.A. Madrid",
       image: csaLogo,
+      imageClassName: "card-image-large",
       footerLink: [
         {
           name: "Certification",
