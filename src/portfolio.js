@@ -12,13 +12,13 @@ import mongodbLogo from "./assets/images/mongodb.svg";
 import csaLogo from "./assets/images/csa-logog.svg";
 import openLogo from "./assets/images/open.png";
 import helsinkiLogo from "./assets/images/helsinki.png";
-import pythonTrainingLogo from "./assets/images/pythonTrainingLogo.svg";
-import scrumTrainingLogo from "./assets/images/scrumTrainingLogo.svg";
-import phpTrainingLogo from "./assets/images/phpTrainingLogo.svg";
-import javaTrainingLogo from "./assets/images/javaTrainingLogo.svg";
-import awsTrainingLogo from "./assets/images/awsTrainingLogo.svg";
-import webServerTrainingLogo from "./assets/images/webServerTrainingLogo.svg";
-import aiMlTrainingLogo from "./assets/images/aiMlTrainingLogo.svg";
+import pythonTrainingLogo from "./assets/images/pythonTrainingLogo.png";
+import scrumTrainingLogo from "./assets/images/scrumTrainingLogo.png";
+import phpTrainingLogo from "./assets/images/phpTrainingLogo.png";
+import javaTrainingLogo from "./assets/images/javaTrainingLogo.png";
+import awsTrainingLogo from "./assets/images/awsTrainingLogo.png";
+import webServerTrainingLogo from "./assets/images/webServerTrainingLogo.png";
+import aiMlTrainingLogo from "./assets/images/aiMlTrainingLogo.png";
 const illustration = {
   animated: true
 };
